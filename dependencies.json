@@ -1,0 +1,19 @@
+{
+  "scripts": [
+    "bower_components/jquery/dist/jquery.js",
+    "bower_components/angular/angular.js",
+
+    "bower_components/lodash/lodash.js",
+    "bower_components/ngl.lodash/src/lodash.js",
+
+    "bower_components/ngl.log/dist/log.js",
+    "bower_components/ngl.log/dist/templates.js",
+
+    "bower_components/select2/select2.js",
+    "bower_components/angular-select2/dist/angular-select2.js"
+  ],
+  "styles": [
+    "bower_components/ngl.log/dist/log.css",
+    "bower_components/select2/select2.css"
+  ]
+}

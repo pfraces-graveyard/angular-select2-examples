@@ -1,0 +1,25 @@
+<div class="view-demo">
+  <h1>Dynamically disable options</h1>
+
+  <h2>Synchronous data source</h2>
+  <select2 ng-model="sync.selection" s2-options="item.id as item.name for item in sync.items"></select2>
+
+  <h2>Async data source</h2>
+  <select2 ng-model="async.selection" options="async.queryOptions"></select2>
+
+  <h2>Synchronous data source (filled from async angular operation)</h2>
+  <select2 ng-model="syncAsync.selection" s2-options="item.id as item.name for item in syncAsync.items"></select2>
+
+  <h2>Synchronous data source (with disabled options)</h2>
+  <select2 ng-model="syncDisabled.selection" s2-options="item.id as item.name for item in syncDisabled.items"></select2>
+
+  <p>Looking at the <a href="https://github.com/rubenv/angular-select2/blob/master/src/select2.js#L124">source code</a>
+  it seems impossible to get this functionality
+  working</p>
+
+  <h2>Async data source (with disabled options)</h2>
+  <select2 ng-model="asyncDisabled.selection" options="asyncDisabled.queryOptions"></select2>
+
+  <h2>[WIP] Dynamically disable options</h2>
+  <select2 ng-model="dynamicDisable.selection" options="dynamicDisable.queryOptions"></select2>
+</div>

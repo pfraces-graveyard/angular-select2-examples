@@ -1,0 +1,14 @@
+[
+  {
+    "name": "angular-select2",
+    "port": 3000,
+    "root": "dist",
+    "fixtures": {
+      "/api": "server"
+    },
+    "notfound": {
+      "path": "dist/index.html",
+      "status": 200
+    }
+  }
+]

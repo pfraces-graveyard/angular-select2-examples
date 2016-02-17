@@ -1,0 +1,6 @@
+[
+  { "label": "Name" },
+  { "label": "Email", "disabled": true },
+  { "label": "Password", "password": true }
+]
+

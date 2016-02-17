@@ -1,0 +1,12 @@
+{
+  "name": "angular-select2-examples",
+  "description": "[PoC] Dynamically disable options using angular-select2",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "angular": "1.*",
+    "ngl.lodash": "^4.3.0",
+    "ngl.log": "^0.1.0",
+    "angular-select2": "*"
+  }
+}
